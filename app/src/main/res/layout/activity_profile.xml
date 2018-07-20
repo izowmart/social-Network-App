@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfile"
+    tools:context=".ProfileActivity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/my_profile_pic"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/profile"
+                android:layout_alignParentTop="true"/>
+            <TextView
+                android:id="@+id/my_profile_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_profile_pic"
+                android:layout_marginTop="5dp"
+                android:text="Profile Name"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"/>
+            <TextView
+                android:id="@+id/my_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_profile_full_name"
+                android:text="Username"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"/>
+            <TextView
+                android:id="@+id/my_profile_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_username"
+                android:text="Hey there, a am using social app, developed by Izowmart"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/darker_gray"/>
+            <TextView
+                android:id="@+id/my_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_profile_status"
+                android:text="Country"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="60dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:id="@+id/my_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_country"
+                android:text="D.O.B"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="2dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:id="@+id/my_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_dob"
+                android:text="Gender"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="2dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:id="@+id/my_relationship_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_gender"
+                android:text="My relation ship status"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="2dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

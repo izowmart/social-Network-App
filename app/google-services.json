@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "183237811769",
+    "firebase_url": "https://social-network-poster-2ba98.firebaseio.com",
+    "project_id": "social-network-poster-2ba98",
+    "storage_bucket": "social-network-poster-2ba98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183237811769:android:1f18afe366098ca3",
+        "android_client_info": {
+          "package_name": "com.marttech.socialnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183237811769-pgdpetgo0733lsv7kqf882kb2jn466v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marttech.socialnet",
+            "certificate_hash": "52b3f796e53c1dcad7c4bf6da9398828f1e01d83"
+          }
+        },
+        {
+          "client_id": "183237811769-qvaamifdrtll7aeuu0mh4ner5f5nok78.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "183237811769-qvaamifdrtll7aeuu0mh4ner5f5nok78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJAkZF4ilftX650TBWtwZ4s7nRKlV0l_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183237811769-qvaamifdrtll7aeuu0mh4ner5f5nok78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

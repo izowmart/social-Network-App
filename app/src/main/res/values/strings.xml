@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Social Net</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_anaccount_need_new_account">Don\'t have anAccount, Need New Account?</string>
+    <string name="or_login_with">or Login with</string>
+    <string name="email1">Email</string>
+    <string name="password2">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="username1">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="country">Country</string>
+    <string name="save">Save</string>
+    <string name="username">Username</string>
+    <string name="write_something_about_your_image_here">Write something about your image here</string>
+</resources>
